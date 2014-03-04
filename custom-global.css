@@ -1,9 +1,10 @@
 body {
   background-color: #E0E0E0;
+
 }
 
 * {
-  margin: 0.25px;
+  margin: 0px;
   margin-top: 0px;
   padding: 0;
   -moz-box-sizing: border-box;
@@ -39,9 +40,9 @@ input {
 }
 label {
   display: block;
-  float: left;
+  float: right;
   height: 100%;
-  width: 150px;
+  width: 160px;
   margin-bottom: 10px;
   overflow: hidden;
  
@@ -69,7 +70,7 @@ label:hover, #rad2 + label:hover {
   color: #fff;
   cursor: pointer;
 
-  width:180px;
+  width:155px;
   -moz-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
 }
@@ -87,10 +88,6 @@ label:hover, #rad2 + label:hover {
   font-size: 14px;
 }
 
-
-/*#title:hover {
-  color: red;
-}*/
 
 #box {
   padding-top: 570px;
@@ -132,7 +129,7 @@ label:hover, #rad2 + label:hover {
   margin-top: 10px;
 }
 input[type="radio"]:checked ~ .accslide {
-  width: 550px;
+  width: 544px;
 }
 
 
